@@ -28,12 +28,14 @@ For python dependencies, install:
 pip install bs4 requests awscli json --update
 ```
 
-Before running, make sure your AWS credentials at *env.cred.files* editing the file:
+Before running, make sure your AWS credentials at *env.cred.json* editing the file:
 
 ```
 "AWS_USER":""
 "AWS_CREDENTIALS":""
 ```
+
+Also, remember to add the News API key if you want to make it working properly
 
 To start the server, just use the npm command that enables it:
 
